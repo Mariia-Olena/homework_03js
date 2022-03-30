@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 3</title>
+</head>
+<body>
+    <script>
+        let userAge = prompt('Скільки вам років?')
+        if (userAge % 100 >= 11 && userAge % 10 <= 14) {
+            alert(`Вам ${userAge} років!`);
+        } else if (userAge % 10 == 1) {
+            alert(`Вам ${userAge} рік!`); 
+        } else if (userAge % 10 >= 2 && userAge % 10 <= 4) {
+            alert(`Вам ${userAge} роки!`);           
+        } else if (userAge % 10 >= 5 && userAge % 10 <= 9) {
+            alert(`Вам ${userAge} років!`);
+        } else if (userAge % 10 == 0) {
+            alert(`Вам ${userAge} років!`);
+        } else {
+            alert('Введіть коректний вік!');
+        }
+    </script>
+</body>
+</html>
+
